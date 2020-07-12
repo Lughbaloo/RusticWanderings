@@ -1,0 +1,10 @@
+
+#Common configuration settings
+[common]
+
+	#Structures
+	[common.structures]
+		#The chance for a survival camp to generate. This value is interpreted as "1 out of X" to generate a survival camp.
+		#Range: > 1
+		survivalCampGenerateChance = 25
+

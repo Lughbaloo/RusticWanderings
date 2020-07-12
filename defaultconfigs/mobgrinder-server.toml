@@ -1,0 +1,9 @@
+
+[general]
+	#time in between 'kills' performed by the machine in ticks
+	#Range: > 1
+	time_between_kills = 100
+	#How much damage the catalyst item takes per kill, set to 0 to disable
+	#Range: > 0
+	damage_per_kill = 1
+

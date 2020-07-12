@@ -1,0 +1,44 @@
+
+#Harvest Sprites settings
+[harvest_sprites]
+
+	#Environment settings
+	[harvest_sprites.environment]
+		#Sprite Lamp emits a redstone signal proportional to the amount of food in the inventory
+		emit_redstone = true
+		#Number of game ticks between harvest cycles. Raising this value increases the time between harvest cycles
+		#Range: 1 ~ 800
+		ticks_per_cycle = 4
+		#Sprite Lamp emits light when active
+		enable_light = true
+
+	#Sprite Hoard settings
+	[harvest_sprites.sprite_hoard]
+		#Hoard search range above/below lamp
+		#Range: 1 ~ 6
+		hoard_height = 3
+		#Choose a random Sprite Hoard each time a crop is harvested
+		randomize_hoards = true
+		#Hoard search range surrounding lamp. 0 will only search the block under/over the lamp
+		#Range: 0 ~ 10
+		hoard_range = 5
+
+	#Sprite Lamp settings
+	[harvest_sprites.sprite_lamp]
+		#Harvest range above/below lamp
+		#Range: 1 ~ 4
+		harvest_height = 3
+		#Number of crops harvested per saturation point each harvest cycle. Setting this to zero will harvest all available crops each cycle regardless of food type
+		#Range: 0 ~ 81
+		harvest_rate = 5
+		#Harvest range surrounding lamp. 0 will only harvest the block under/over the lamp
+		#Range: 0 ~ 8
+		harvest_range = 4
+		#Rate sprites consume food (in harvest cycles per hunger point). Zero disables food consumption. NOTE: Food MUST be present for sprites to work even when set to zero
+		#Range: 0 ~ 1000000000
+		food_consumption_rate = 10
+		#Food is consumed only when there are harvestable crops
+		consume_only_on_harvest = true
+		#Don't drop crop seeds (secondary seeds may still drop)
+		suppress_seed_drops = true
+

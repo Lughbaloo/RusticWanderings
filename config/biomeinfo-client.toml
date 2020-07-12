@@ -1,0 +1,22 @@
+#true if the biome info should be shown, false otherwise
+enabled = true
+#true if the biome info should only show shortly when the biome is switched
+fadeOut = false
+#How long in ticks (20 ticks = 1 second) to display the biome info, if fadeOut = true
+#Range: > 0
+displayTime = 30
+#The X position to display the biome info at
+#Range: > 0
+posX = 3
+#The Y position to display the biome info at
+#Range: > 0
+posY = 13
+#The size of the biome info (multiplier)
+#Range: 0.0 ~ 1.7976931348623157E308
+scale = 1.0
+#true if the biome info should be rendered with a shadow, false otherwise
+textShadow = false
+#The color to display the biome info in (Format: 0xRRGGBB)
+#Range: 0 ~ 16777215
+color = 16777215
+

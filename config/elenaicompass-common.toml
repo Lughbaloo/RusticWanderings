@@ -1,0 +1,36 @@
+
+[distance]
+	#How far each compass will search to find a structure. This is by default 10,000, but 100,000 is recommended on beefy computers.
+	#Range: > 0
+	distance = 10000
+
+[crafting]
+
+	[crafting.midnight]
+		#Whether or not the Midnight Compass can be crafted
+		moltenCraterEnabled = true
+		#Whether or not the Phantom Compass can be crafted
+		entranceRiftEnabled = true
+
+	[crafting.valhelsia_structures]
+		#Whether or not the Smithing Compass can be crafted
+		forgeEnabled = true
+		#Whether or not the Golden Compass can be crafted
+		smallCastleEnabled = true
+		#Whether or not the Honey Compass can be crafted
+		playerHouseEnabled = true
+
+	[crafting.vanilla]
+		#Whether or not the Stronghold Compass can be crafted
+		strongholdEnabled = true
+		#Whether or not the Emerald Compass can be crafted
+		villageEnabled = true
+		#Whether or not the Illager Compass can be crafted
+		mansionEnabled = true
+		#Whether or not the Purpur Compass can be crafted
+		endCityEnabled = true
+		#Whether or not the Molten Compass can be crafted
+		fortressEnabled = true
+		#Whether or not the Monument Compass can be crafted
+		monumentEnabled = true
+

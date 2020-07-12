@@ -1,0 +1,4 @@
+#updatetime: How often the server sends tps data. Value is the number of seconds between each update.
+#Range: 0 ~ 30
+updatetime = 5
+
