@@ -1,10 +1,4 @@
 
-[modules]
-
-	[modules.chineseworkshop]
-		debug_stick = true
-		retexture = true
-
 [client]
 	#Show item tags and nbt in advanced tooltips
 	debugTooltip = true

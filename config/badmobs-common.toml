@@ -1,0 +1,10 @@
+
+#General settings for the mod.
+[general]
+	#A list of all banned mobs. If a mobs entity id is added to this list, it will not be allowed to spawn in any world.
+	bannedMobs = ["sullys_mod:witherling"]
+	#Should banned mobs spawn from spawners?
+	allowSpawners = true
+	#Should banned mobs spawn from spawn eggs?
+	allowSpawnEgg = true
+

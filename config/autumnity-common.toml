@@ -1,7 +1,7 @@
 
 [snail]
 	#A list of biomes where snails can spawn. The list doesn't include maple forests.
-	"Snail Spawn Biomes" = ["magicalforest:magical_forest", "byg:glowshroombayou", "byg:tropicalfungalforest", "byg:tropicalfungalrainforesthills", "byg:woodedmeadow", "minecraft:mushroom_fields", "voyage:forest_lush", "atmospheric:rosewood_forest", "worldofwonder:dandelion_fields"]
+	"Snail Spawn Biomes" = ["byg:glowshroombayou", "byg:tropicalfungalforest", "byg:tropicalfungalrainforesthills", "byg:woodedmeadow", "minecraft:mushroom_fields", "voyage:forest_lush", "atmospheric:rosewood_forest", "worldofwonder:dandelion_fields"]
 	#A list of items that can be fed to snails to produce snail slime.
 	"Snail Food" = ["minecraft:brown_mushroom", "minecraft:red_mushroom", "minecraft:mushroom_stem", "minecraft:brown_mushroom_block", "minecraft:red_mushroom_block", "quark:glowshroom", "quark:glowshroom_stem", "quark:glowshroom_block"]
 	#A list of blocks that make snail slime blocks slippery when placed next to them.
