@@ -11,7 +11,7 @@
 	#These options apply to the optional Waystones button displayed in the inventory.
 	[server.inventoryButton]
 		#Set to 'NONE' for no inventory button. Set to 'NEAREST' for an inventory button that teleports to the nearest waystone. Set to 'ANY' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
-		inventoryButton = "NONE"
+		inventoryButton = "ANY"
 		#The multiplier applied to the base xp cost when teleporting via the inventory button.
 		#Range: 0.0 ~ Infinity
 		inventoryButtonXpCostMultiplier = 1.0
@@ -23,7 +23,7 @@
 	[server.warpStone]
 		#The cooldown between usages of the warp stone in seconds. This is bound to the player, not the item, so multiple warp stones share the same cooldown.
 		#Range: > 0
-		warpStoneCooldown = 300
+		warpStoneCooldown = 120
 		#The time in ticks that it takes to use a warp stone. This is the charge-up time when holding right-click.
 		#Range: 1 ~ 127
 		warpStoneUseTime = 32
@@ -62,16 +62,16 @@
 	[server.waystoneToWaystone]
 		#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 		#Range: 0.0 ~ Infinity
-		waystoneXpCostMultiplier = 1.0
+		waystoneXpCostMultiplier = 0.0
 
 	#These options apply to the global waystones.
 	[server.globalWaystones]
 		#Set to false to allow non-creative players to make waystones globally activated.
-		globalWaystoneRequiresCreative = true
+		globalWaystoneRequiresCreative = false
 		#The multiplier applied to the cooldown when teleporting to a global waystone via inventory button or warp stone.
 		#Range: 0.0 ~ Infinity
-		globalWaystoneCooldownMultiplier = 1.0
+		globalWaystoneCooldownMultiplier = 0.0
 		#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 		#Range: 0.0 ~ Infinity
-		globalWaystonesXpCostMultiplier = 1.0
+		globalWaystonesXpCostMultiplier = 0.0
 
