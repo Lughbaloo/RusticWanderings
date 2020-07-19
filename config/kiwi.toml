@@ -1,4 +1,10 @@
 
+[modules]
+
+	[modules.chineseworkshop]
+		debug_stick = true
+		retexture = true
+
 [client]
 	#Show item tags and nbt in advanced tooltips
 	debugTooltip = true
@@ -10,10 +16,4 @@
 	#Allowed values: vanilla, kiwi
 	debugTooltipNBTFormatter = "vanilla"
 	contributorEffect = ""
-
-[modules]
-
-	[modules.chineseworkshop]
-		debug_stick = true
-		retexture = true
 

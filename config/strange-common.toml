@@ -124,7 +124,7 @@
 		#Setting this to a high value will make some monsters extremely hard to beat.
 		"Scale difficulty value" = 1.25
 		#X or Z axis values greater than this value are considered 'outer lands'.
-		Threshold = 150000
+		Threshold = 80000
 
 [Totems]
 	"TotemOfEnchanting enabled" = true

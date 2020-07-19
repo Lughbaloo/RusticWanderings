@@ -48,7 +48,7 @@
 		#Range: > 0
 		delay = 3
 		#Enable commands: /setwarp, /delwarp, /warp
-		enable = true
+		enable = false
 		#Range: > 0
 		cooldown = 0
 
@@ -96,7 +96,7 @@
 		#Range: > 0
 		delay = 3
 		#Enable command: /rndtp
-		enable = true
+		enable = false
 		#Range: > 0
 		cooldown = 0
 		#Range: 50 ~ 999
@@ -154,7 +154,7 @@
 
 	[Commands.tpall]
 		#Enable command: /tpall
-		enable = true
+		enable = false
 
 	[Commands.spawn]
 		#Range: > 0
