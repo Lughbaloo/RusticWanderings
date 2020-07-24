@@ -12,7 +12,7 @@
 	"Use Fast Worldgen" = true
 	"Enable 'q' Button" = false
 	#A list of screens that don't play well with quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
-	"Ignored Screens" = ["com.tfar.craftingstation.client.CraftingStationScreen", "com.raoulvdberge.refinedstorage.screen.grid.GridScreen", "com.raoulvdberge.refinedstorage.screen.DiskManipulatorScreen", "com.raoulvdberge.refinedstorage.screen.InterfaceScreen"]
+	"Ignored Screens" = ["com.tfar.craftingstation.client.CraftingStationScreen", "com.raoulvdberge.refinedstorage.screen.grid.GridScreen", "com.raoulvdberge.refinedstorage.screen.DiskManipulatorScreen", "com.raoulvdberge.refinedstorage.screen.InterfaceScreen", "net.silentchaos512.gear.block.craftingstation.CraftingStationScreen"]
 	"Use Anti Overlap" = true
 	#Quark messes with the Stonecutter to allow any item that can be used in it to be shift clicked in. Set this to false to turn it off.
 	"Hack Stonecutter Shift Click" = true
@@ -396,7 +396,7 @@
 [world]
 	"New Stone Types" = true
 	"Lush Underground Biome" = true
-	"Big Dungeon" = true
+	"Big Dungeon" = false
 	Speleothems = true
 	Biotite = true
 	"Big Stone Clusters" = true

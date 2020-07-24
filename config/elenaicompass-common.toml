@@ -8,9 +8,9 @@
 
 	[crafting.midnight]
 		#Whether or not the Midnight Compass can be crafted
-		moltenCraterEnabled = true
+		moltenCraterEnabled = false
 		#Whether or not the Phantom Compass can be crafted
-		entranceRiftEnabled = true
+		entranceRiftEnabled = false
 
 	[crafting.valhelsia_structures]
 		#Whether or not the Smithing Compass can be crafted

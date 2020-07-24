@@ -24,6 +24,16 @@
           "nbt": ""
         }
       ]
-    }
+    },
+    "mobs": {
+      "duration": 86400,
+      "items": [
+        {
+          "name": "mobcatcher:net",
+          "quantity": 1,
+          "nbt": ""
+        }
+     ]
   }
+ }
 }

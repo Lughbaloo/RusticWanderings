@@ -1,3 +1,4 @@
+# RandomPatches configuration
 
 # Options related to the movement speed limits.
 [speedLimits]
@@ -33,12 +34,12 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 90
-	readTimeout = 90
+	readTimeout = 180
 	# The login timeout in seconds.
 	# Min: 1
 	# Max: 2147483647
 	# Default: 900
-	loginTimeout = 1800
+	loginTimeout = 2800
 
 # Options related to client-sided features.
 [client]
@@ -59,15 +60,15 @@
 	[client.window]
 		# The path to the 256x256 window icon which is used on Mac OS X.
 		# Leave this, the 16x16 icon and the 32x32 icon blank to use the default icon.
-		# Default: 
+		# Default:
 		icon256 = ""
 		# The path to the 16x16 Minecraft window icon.
 		# Leave this and the 32x32 icon blank to use the default icon.
-		# Default: 
+		# Default:
 		icon16 = ""
 		# The path to the 32x32 Minecraft window icon.
 		# Leave this and the 16x16 icon blank to use the default icon.
-		# Default: 
+		# Default:
 		icon32 = ""
 		# The Minecraft window title.
 		# The Minecraft version is provided as an argument.
@@ -108,4 +109,3 @@
 	# Enables the /rpreload command.
 	# Default: true
 	rpreload = true
-
