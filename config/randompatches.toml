@@ -60,15 +60,15 @@
 	[client.window]
 		# The path to the 256x256 window icon which is used on Mac OS X.
 		# Leave this, the 16x16 icon and the 32x32 icon blank to use the default icon.
-		# Default:
+		# Default: 
 		icon256 = ""
 		# The path to the 16x16 Minecraft window icon.
 		# Leave this and the 32x32 icon blank to use the default icon.
-		# Default:
+		# Default: 
 		icon16 = ""
 		# The path to the 32x32 Minecraft window icon.
 		# Leave this and the 16x16 icon blank to use the default icon.
-		# Default:
+		# Default: 
 		icon32 = ""
 		# The Minecraft window title.
 		# The Minecraft version is provided as an argument.
@@ -109,3 +109,4 @@
 	# Enables the /rpreload command.
 	# Default: true
 	rpreload = true
+

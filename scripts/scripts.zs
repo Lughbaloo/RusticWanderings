@@ -135,8 +135,6 @@ var hidey = [
     <item:gemsnjewels:morganite_set_gold_pickaxe>,
     <item:gemsnjewels:zircon_set_diamond_pickaxe>,
     <item:gemsnjewels:kunzite_set_iron_pickaxe>,
-    <item:elenaicompass:m_molten_crater_compass>,
-    <item:elenaicompass:m_entrance_rift_compass>
 ] as IItemStack[];
 
 for hide in hidey {

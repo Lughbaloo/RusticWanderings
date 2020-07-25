@@ -30,3 +30,4 @@
 	#Range: > 0
 	"Minimum Slots" = 6
 	"Blacklisted Block Entities" = ["minecraft:furnace", "minecraft:blast_furnace", "minecraft:smoker", "silentgear:crafting_station"]
+

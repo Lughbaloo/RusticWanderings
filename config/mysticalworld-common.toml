@@ -16,6 +16,8 @@
 		#Max size of the vein.
 		#Range: 1 ~ 256
 		veinSize = 12
+		#The dimensions that this ore should spawn in as a list (default [0], overworld)
+		dimensions = [0]
 
 	#Silver ore generation.
 	[oregen.Silver_oregen]
@@ -31,6 +33,8 @@
 		#Max size of the vein.
 		#Range: 1 ~ 256
 		veinSize = 8
+		#The dimensions that this ore should spawn in as a list (default [0], overworld)
+		dimensions = [0]
 
 	#Lead ore generation.
 	[oregen.Lead_oregen]
@@ -46,6 +50,8 @@
 		#Max size of the vein.
 		#Range: 1 ~ 256
 		veinSize = 8
+		#The dimensions that this ore should spawn in as a list (default [0], overworld)
+		dimensions = [0]
 
 	#Quicksilver ore generation.
 	[oregen.Quicksilver_oregen]
@@ -61,6 +67,8 @@
 		#Max size of the vein.
 		#Range: 1 ~ 256
 		veinSize = 4
+		#The dimensions that this ore should spawn in as a list (default [0], overworld)
+		dimensions = [0]
 
 	#Amethyst ore generation.
 	[oregen.Amethyst_oregen]
@@ -76,6 +84,8 @@
 		#Max size of the vein.
 		#Range: 1 ~ 256
 		veinSize = 3
+		#The dimensions that this ore should spawn in as a list (default [0], overworld)
+		dimensions = [0]
 
 	#Tin ore generation.
 	[oregen.Tin_oregen]
@@ -91,6 +101,8 @@
 		#Max size of the vein.
 		#Range: 1 ~ 256
 		veinSize = 8
+		#The dimensions that this ore should spawn in as a list (default [0], overworld)
+		dimensions = [0]
 
 #Mob Spawn Configuration
 [mob_spawns]
@@ -217,3 +229,4 @@
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
 		spawnChance = 6
+
