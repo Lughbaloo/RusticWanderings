@@ -1,0 +1,96 @@
+{
+    "availability": {
+        "tier": 3
+    },
+    "crafting_items": {
+        "normal": {
+            "item": "futuremc:netherite_ingot"
+        }
+    },
+    "name": {
+        "text": "Netherite"
+    },
+    "stats": [
+        {
+            "name": "durability",
+            "value": 1700
+        },
+        {
+            "name": "armor_durability",
+            "value": 35
+        },
+        {
+            "name": "enchantability",
+            "value": 10
+        },
+        {
+            "name": "rarity",
+            "value": 80
+        },
+        {
+            "name": "harvest_level",
+            "value": 3
+        },
+        {
+            "name": "harvest_speed",
+            "value": 8
+        },
+        {
+            "name": "melee_damage",
+            "value": 5
+        },
+        {
+            "name": "magic_damage",
+            "value": 1
+        },
+        {
+            "name": "attack_speed",
+            "value": 0
+        },
+        {
+            "name": "armor",
+            "value": 24
+        },
+        {
+            "name": "armor_toughness",
+            "value": 10
+        },
+        {
+            "name": "magic_armor",
+            "value": 4
+        },
+        {
+            "name": "ranged_damage",
+            "value": 3
+        },
+        {
+            "name": "ranged_speed",
+            "value": -0.2
+        },
+        {
+            "name": "chargeability",
+            "value": 1.2
+        }
+    ],
+    "textures": {
+        "all": {
+            "lite_texture": "low_contrast",
+            "highlight": false,
+            "broken_color": "#4d494d",
+            "normal_color": "#4d494d",
+            "texture_domain": "silentgear",
+            "texture_suffix": "low_contrast"
+        }
+    },
+    "traits": [
+        {
+            "level": 1,
+            "name": "silentgear:flame_ward"
+        },
+        {
+            "level": 3,
+            "name": "silentgear:synergistic"
+        }
+    ],
+    "type": "silentgear:main"
+}

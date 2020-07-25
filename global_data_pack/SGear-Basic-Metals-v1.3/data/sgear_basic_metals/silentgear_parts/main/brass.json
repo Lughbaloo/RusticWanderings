@@ -1,0 +1,95 @@
+{
+    "availability": {
+        "tier": 2
+    },
+    "crafting_items": {
+        "normal": {
+            "tag": "forge:ingots/brass"
+        },
+        "small": {
+            "size": 9,
+            "tag": "forge:nuggets/brass"
+        }
+    },
+    "name": {
+        "translate": "part.silentgear.main.brass"
+    },
+    "stats": [
+        {
+            "name": "durability",
+            "value": 480
+        },
+        {
+            "name": "armor_durability",
+            "value": 15
+        },
+        {
+            "name": "enchantability",
+            "value": 13
+        },
+        {
+            "name": "harvest_level",
+            "value": 2
+        },
+        {
+            "name": "harvest_speed",
+            "value": 5
+        },
+        {
+            "name": "melee_damage",
+            "value": 1.5
+        },
+        {
+            "name": "magic_damage",
+            "value": 1
+        },
+        {
+            "name": "attack_speed",
+            "value": 0.1
+        },
+        {
+            "name": "armor",
+            "value": 14
+        },
+        {
+            "name": "armor_toughness",
+            "value": 1
+        },
+        {
+            "name": "magic_armor",
+            "value": 6
+        },
+        {
+            "name": "ranged_damage",
+            "value": 2
+        },
+        {
+            "name": "ranged_speed",
+            "value": 0.2
+        },
+        {
+            "name": "chargeability",
+            "value": 1.0
+        }
+    ],
+    "textures": {
+        "all": {
+            "lite_texture": "high_contrast",
+            "highlight": true,
+            "texture_domain": "silentgear",
+            "texture_suffix": "generic_hc",
+            "normal_color": "#F2D458"
+        }
+    },
+    "traits": [
+        {
+            "level": 2,
+            "name": "silentgear:malleable"
+        },
+        {
+            "level": 1,
+            "name": "silentgear:synergistic"
+        }
+    ],
+    "type": "silentgear:main"
+}

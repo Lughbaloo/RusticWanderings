@@ -1,0 +1,96 @@
+{
+    "availability": {
+        "tier": 3
+    },
+    "crafting_items": {
+        "normal": {
+            "item": "gemsnjewels:black_opal"
+        }
+    },
+    "name": {
+        "text": "Black Opal"
+    },
+    "stats": [
+        {
+            "name": "durability",
+            "value": 256
+        },
+        {
+            "name": "armor_durability",
+            "value": 5
+        },
+        {
+            "name": "enchantability",
+            "value": 8
+        },
+        {
+            "name": "harvest_level",
+            "value": 2
+        },
+        {
+            "name": "harvest_speed",
+            "value": 8
+        },
+        {
+            "name": "melee_damage",
+            "value": 6
+        },
+        {
+            "name": "magic_damage",
+            "value": 2
+        },
+        {
+            "name": "attack_speed",
+            "value": -0.4
+        },
+        {
+            "name": "armor",
+            "value": 12
+        },
+        {
+            "name": "armor_toughness",
+            "value": 0
+        },
+        {
+            "name": "magic_armor",
+            "value": 4
+        },
+        {
+            "name": "ranged_damage",
+            "value": 0
+        },
+        {
+            "name": "ranged_speed",
+            "value": -0.2
+        },
+        {
+            "name": "chargeability",
+            "value": 1.0
+        },
+        {
+            "name": "rarity",
+            "value": 25
+        }
+    ],
+    "textures": {
+        "all": {
+            "lite_texture": "high_contrast",
+            "highlight": true,
+            "broken_color": "#ffc0ff",
+            "normal_color": "#ffc0ff",
+            "texture_domain": "silentgear",
+            "texture_suffix": "high_contrast"
+        }
+    },
+    "traits": [
+        {
+            "level": 3,
+            "name": "silentgear:brittle"
+        },
+        {
+            "level": 1,
+            "name": "silentgear:eroded"
+        }
+    ],
+    "type": "silentgear:main"
+}

@@ -1,0 +1,92 @@
+{
+  "availability": {
+        "tier": 3
+    },
+    "crafting_items": {
+        "normal": {
+            "item": "gemsnjewels:kunzite"
+        }
+    },
+    "name": {
+        "text": "Kunzite"
+    },
+    "stats": [
+        {
+            "name": "durability",
+            "value": 768
+        },
+        {
+            "name": "armor_durability",
+            "value": 15
+        },
+        {
+            "name": "enchantability",
+            "value": 10
+        },
+        {
+            "name": "harvest_level",
+            "value": 2
+        },
+        {
+            "name": "harvest_speed",
+            "value": 8
+        },
+        {
+            "name": "melee_damage",
+            "value": 6
+        },
+        {
+            "name": "magic_damage",
+            "value": 5
+        },
+        {
+            "name": "attack_speed",
+            "value": -0.2
+        },
+        {
+            "name": "armor",
+            "value": 18
+        },
+        {
+            "name": "armor_toughness",
+            "value": 2
+        },
+        {
+            "name": "magic_armor",
+            "value": 8
+        },
+        {
+            "name": "ranged_damage",
+            "value": 1
+        },
+        {
+            "name": "ranged_speed",
+            "value": 0.1
+        },
+        {
+            "name": "chargeability",
+            "value": 1.2
+        },
+        {
+            "name": "rarity",
+            "value": 35
+        }
+    ],
+    "textures": {
+        "all": {
+            "lite_texture": "high_contrast",
+            "highlight": true,
+            "broken_color": "#ffc0ff",
+            "normal_color": "#ffc0ff",
+            "texture_domain": "silentgear",
+            "texture_suffix": "high_contrast"
+        }
+    },
+    "traits": [
+        {
+            "level": 1,
+            "name": "silentgear:brittle"
+        }
+    ],
+    "type": "silentgear:main"
+}

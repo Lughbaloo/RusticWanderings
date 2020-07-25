@@ -305,3 +305,30 @@ Scripts:
 -- The Regen Ring is made with an Enchanted Golden Apple and a Golden Nether Banana.
 -- The Wither Ring is made with a Nether Star and a Wither Skeleton Skull.
 -- The Night Vision Ring is made with a Golden Carrot and an Ender Eye.
+
+--------------
+
+1.4.1
+
+This patch hopefully addresses a particularly elusive server stall.
+
+Mod Changes:
+~ Just Another Compass Mod from 1.1 to 2.0
+~ Mystical World 2.0.4 to 2.0.5
+~ Passable Foliage from 1.1.2 to 1.1.3
+~ Silent Gear from 1.10.0+131 to 1.10.2+136
++ JourneyMap 5.7.0b3
++ Just Enough Resources 0.10.1.77
++ WorldEdit 7.1.0
++ WorldEditCUI 3.0.5
+- Removed VoxelMap
+- Removed Sully's Mod
+
+Config:
+- Removed mobs from Sully's Mod from the Bad Mobs spawn blacklist.
+- Dragonfruit Drakes are temporarily blacklisted from spawning until their spawn count is fixed next update.
+- MysticalWorld ores have been disabled from spawning again, thanks to the fix that prevents this from crashing the game.
+- WorldEditCUI's crosshair alteration is set to OFF.
+
+Scripts:
+- Removed lines referencing disabled items.
