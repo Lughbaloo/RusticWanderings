@@ -76,8 +76,8 @@
         "all": {
             "lite_texture": "high_contrast",
             "highlight": true,
-            "broken_color": "#A3A300",
-            "normal_color": "#FFFFFF",
+            "broken_color": "#5bccf8",
+            "normal_color": "#5bccf8",
             "texture_domain": "silentgems",
             "texture_suffix": "zircon"
         }

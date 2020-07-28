@@ -76,8 +76,8 @@
         "all": {
             "lite_texture": "high_contrast",
             "highlight": true,
-            "broken_color": "#001BA3",
-            "normal_color": "#FFFFFF",
+            "broken_color": "#f953cb",
+            "normal_color": "#f953cb",
             "texture_domain": "silentgems",
             "texture_suffix": "tourmaline"
         }

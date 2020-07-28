@@ -192,10 +192,6 @@ craftingTable.addShapeless("nightvision_ring", <item:ringsofascension:ring_night
 
 # ----------------------------- Ametrine Testing ----------------------------- #
 
-//Create a tag and add it
-<tag:forge:gems/ametrine>.createItemTag();
-<tag:forge:gems/ametrine>.addItems([<item:gemsnjewels:ametrine>, <item:byg:ametrine_gems>]);
-
 var gnjametrine = <item:gemsnjewels:ametrine>;
 var bygametrine = <item:byg:ametrine_gems>;
 

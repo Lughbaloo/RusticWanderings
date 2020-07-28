@@ -77,8 +77,8 @@
         "all": {
             "lite_texture": "high_contrast",
             "highlight": true,
-            "broken_color": "#ffc0ff",
-            "normal_color": "#ffc0ff",
+            "broken_color": "#00cfe2",
+            "normal_color": "#00cfe2",
             "texture_domain": "silentgear",
             "texture_suffix": "high_contrast"
         }
