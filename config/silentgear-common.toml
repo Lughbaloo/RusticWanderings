@@ -114,3 +114,4 @@
 		#Log additional information related to loading and synchronizing gear parts and traits.
 		#This might help track down more obscure issues.
 		extraPartAndTraitInfo = false
+
