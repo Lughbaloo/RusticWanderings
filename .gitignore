@@ -20,3 +20,6 @@ whitelist.json
 eula.txt
 crash-reports/
 config/worldedit/sessions/
+usernamecache.json
+maessentials/players/
+config/worldedit/worldedit.properties
