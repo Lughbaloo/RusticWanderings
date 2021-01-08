@@ -23,3 +23,5 @@ config/worldedit/sessions/
 usernamecache.json
 maessentials/players/
 config/worldedit/worldedit.properties
+dumps/
+config/worldedit/worldedit.properties
