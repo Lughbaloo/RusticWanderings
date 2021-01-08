@@ -1,0 +1,17 @@
+{
+  "spawn": {
+    "x": 224.0,
+    "y": 63.0,
+    "z": -208.0,
+    "rotationYaw": 0.0,
+    "rotationPitch": 0.0,
+    "world": {
+      "field_110626_a": "minecraft",
+      "field_110625_b": "dimension"
+    },
+    "dimension": {
+      "field_110626_a": "minecraft",
+      "field_110625_b": "overworld"
+    }
+  }
+}

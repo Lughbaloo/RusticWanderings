@@ -14,11 +14,11 @@ speedReductionVertical = 0.8999999761581421
 #Should entities recognize leaves as air
 modifyPathFinding = true
 #Leaves only passable for players
-playerOnly = true
+playerOnly = false
 
 [sounds]
-	#Range: 0.0 ~ 10.0
-	volume = 1.0
 	#Only players can make noises
 	playerOnly = false
+	#Range: 0.0 ~ 10.0
+	volume = 1.0
 

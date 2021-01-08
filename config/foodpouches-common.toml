@@ -12,11 +12,11 @@
 	#Sizes in meals (1 full hunger bar)
 	[general.pouches]
 		#Range: > 0
-		medium_size = 50
-		#Range: > 1
-		massive_size = 500
-		#Range: > 0
 		small_size = 25
 		#Range: > 0
+		medium_size = 50
+		#Range: > 0
 		large_size = 100
+		#Range: > 1
+		massive_size = 500
 

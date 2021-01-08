@@ -1,10 +1,12 @@
 
 [structures]
+	#Biomes in which Structures cant generate in
+	blacklisted_biomes = ["minecraft:ocean", "minecraft:river", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean"]
 
 	[structures.global]
-		#How flat does terrain need to be for surface structures to spawn? (in blocks) [default: 3]
+		#How flat does terrain need to be for surface structures to spawn? (in blocks) [default: 4]
 		#Range: 0 ~ 64
-		flatness_delta = 3
+		flatness_delta = 4
 
 	[structures.castle]
 		#Generate Castles?
@@ -18,6 +20,10 @@
 		#Castle Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 8
+		#Biome Types the Castle can generate in
+		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
+		#Biomes the Castle can NOT generate in
+		biome_blacklist = []
 
 	[structures.castle_ruin]
 		#Generate Castle Ruins?
@@ -31,6 +37,10 @@
 		#Castle Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 8
+		#Biome Types the Castle Ruin can generate in
+		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
+		#Biomes the Castle Ruin can NOT generate in
+		biome_blacklist = []
 
 	[structures.desert_house]
 		#Generate Desert Houses?
@@ -44,6 +54,10 @@
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 8
+		#Biome Types the Desert House can generate in
+		biome_categories = ["DESERT"]
+		#Biomes the Desert House can NOT generate in
+		biome_blacklist = []
 
 	[structures.forge]
 		#Generate Forges?
@@ -57,6 +71,10 @@
 		#Forge Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 8
+		#Biome Types the Forge can generate in
+		biome_categories = ["PLAINS", "FOREST", "EXTREME_HILLS", "TAIGA"]
+		#Biomes the Forge can NOT generate in
+		biome_blacklist = []
 
 	[structures.player_house]
 		#Generate Player Houses?
@@ -70,6 +88,10 @@
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 8
+		#Biome Types the Player House can generate in
+		biome_categories = ["PLAINS", "FOREST", "EXTREME_HILLS", "TAIGA"]
+		#Biomes the Player House can NOT generate in
+		biome_blacklist = []
 
 	[structures.small_dungeon]
 		#Generate Small Dungeons?
@@ -83,6 +105,10 @@
 		#Small Dungeon Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 8
+		#Biome Types the Small Dungeon can generate in
+		biome_categories = ["PLAINS", "FOREST", "EXTREME_HILLS", "TAIGA", "DESERT", "MESA", "SAVANNA", "JUNGLE", "ICY", "SWAMP"]
+		#Biomes the Small Dungeon can NOT generate in
+		biome_blacklist = []
 
 	[structures.tower_ruin]
 		#Generate Tower Ruins?
@@ -96,4 +122,8 @@
 		#Tower Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 8
+		#Biome Types the Tower Ruin can generate in
+		biome_categories = ["PLAINS", "FOREST", "EXTREME_HILLS", "TAIGA"]
+		#Biomes the Tower Ruin can NOT generate in
+		biome_blacklist = []
 

@@ -5,7 +5,7 @@
 	#Creative Mode Always Removes Fog
 	"Creative Overrides" = true
 	#Disable the fire overlay when you're burning
-	"Disable Fire Overlay" = true
+	"Disable Fire Overlay" = false
 	#Offset the fire overlay, negative values means down and positive is up.
 	#Range: -1.0 ~ 1.0
 	"Fire Overlay Offset" = -0.25
@@ -14,7 +14,7 @@
 
 [overworld]
 	#Disable Overworld Fog?
-	"Disable Overworld Fog" = true
+	"Disable Overworld Fog" = false
 	#Overworld Fog Density
 	#Range: 0.001 ~ 0.5
 	"Overworld Fog Density" = 0.0015
@@ -36,18 +36,19 @@
 	"Disable Nether Fog" = false
 	#Nether Fog Density
 	#Range: 0.001 ~ 0.5
-	"Nether Fog Density" = 0.005
+	"Nether Fog Density" = 0.01
 
 [lava]
 	#Disable Lava Fog?
 	"Disable Lava Fog" = false
 	#Lava Fog Density
 	#Range: 0.001 ~ 0.5
-	"Lava Fog Density" = 0.01
+	"Lava Fog Density" = 0.03
 
 [water]
 	#Disable Water Fog?
-	"Disable Water Fog" = true
+	"Disable Water Fog" = false
 	#Water Fog Density
 	#Range: 0.001 ~ 0.5
 	"Water Fog Density" = 0.01
+

@@ -1,38 +1,38 @@
 
 ["Rings of Ascension"]
-	#The amount of hearts that Max Health's ring gives you.
-	#Range: 0 ~ 400
-	ringHealthHearts = 10
 	#The cooldown in seconds of the Ring of Undying
 	#Range: > 0
 	ringUndyingCooldown = 600
+	#The amount of hearts that Max Health's ring gives you.
+	#Range: 0 ~ 400
+	ringHealthHearts = 10
 
 ["Enable/Disable Rings"]
-	ringWaterWalking = true
-	ringMagnetism = true
-	ringSponge = true
-	ringNightVision = true
-	ringRegeneration = true
-	ringPoisonResistance = true
-	ringStrength = true
-	ringGrowth = true
-	ringInvisibility = true
-	ringWaterBreathing = true
-	ringWither = true
-	ringDolphin = true
-	ringKnockbackResistance = true
-	ringHungerless = true
 	ringFireResistance = true
-	ringExperience = true
-	ringMining = true
-	ringHealth = true
-	ringSlowResistance = true
-	ringJumpBoost = true
-	ringLuck = true
-	ringSpeed = true
-	ringUndying = false
+	ringInvisibility = true
+	ringRegeneration = true
 	ringSlowFalling = true
+	ringStrength = true
+	ringWaterBreathing = true
+	ringSpeed = true
+	ringNightVision = true
+	ringJumpBoost = true
+	ringMining = true
+	ringLuck = true
+	ringDolphin = true
+	ringMagnetism = true
 	ringFlight = true
+	ringPoisonResistance = true
+	ringHungerless = true
+	ringGrowth = true
+	ringKnockbackResistance = true
+	ringHealth = true
+	ringSponge = true
+	ringExperience = true
+	ringWaterWalking = true
+	ringWither = true
+	ringUndying = true
+	ringSlowResistance = true
 
 ["Rings Amplifier"]
 
@@ -41,29 +41,29 @@
 	#1 = Fire Resistance II
 	["Rings Amplifier".Amplifiers]
 		#Range: 0 ~ 255
-		ringAmplifierSlowFalling = 0
-		#Range: 0 ~ 255
-		ringAmplifierJumpBoost = 0
-		#Range: 0 ~ 255
-		ringAmplifierDolphin = 0
+		ringAmplifierFireResistance = 1
 		#Range: 0 ~ 255
 		ringAmplifierInvisibility = 0
 		#Range: 0 ~ 255
-		ringAmplifierWaterBreathing = 1
-		#Range: 0 ~ 255
-		ringAmplifierLuck = 1
-		#Range: 0 ~ 255
 		ringAmplifierRegeneration = 0
 		#Range: 0 ~ 255
-		ringAmplifierFireResistance = 1
+		ringAmplifierSlowFalling = 0
 		#Range: 0 ~ 255
 		ringAmplifierStrength = 0
 		#Range: 0 ~ 255
-		ringAmplifierMining = 1
+		ringAmplifierWaterBreathing = 1
 		#Range: 0 ~ 255
 		ringAmplifierSpeed = 0
 		#Range: 0 ~ 255
 		ringAmplifierNightVision = 0
+		#Range: 0 ~ 255
+		ringAmplifierJumpBoost = 0
+		#Range: 0 ~ 255
+		ringAmplifierMining = 1
+		#Range: 0 ~ 255
+		ringAmplifierLuck = 1
+		#Range: 0 ~ 255
+		ringAmplifierDolphin = 0
 
 ["Rings Tier"]
 
@@ -73,69 +73,69 @@
 	#2 = Epic
 	#3 = Legendary
 	["Rings Tier".Tiers]
-		ringTierWaterBreathing = 0
-		ringTierKnockbackResistance = 0
-		ringTierNightVision = 0
-		ringTierPoisonResistance = 1
-		ringTierSlowFalling = 0
-		ringTierMagnetism = 2
-		ringTierSponge = 1
-		ringTierSpeed = 1
-		ringTierWither = 1
-		ringTierHealth = 3
-		ringTierLuck = 2
-		ringTierRegeneration = 1
-		ringTierDolphin = 1
-		ringTierWaterWalking = 0
-		ringTierInvisibility = 1
-		ringTierGrowth = 2
-		ringTierMining = 2
-		ringTierUndying = 3
 		ringTierFireResistance = 0
+		ringTierInvisibility = 1
+		ringTierRegeneration = 1
+		ringTierSlowFalling = 0
 		ringTierStrength = 1
-		ringTierHungerless = 3
+		ringTierWaterBreathing = 0
+		ringTierSpeed = 1
+		ringTierNightVision = 0
 		ringTierJumpBoost = 0
-		ringTierSlowResistance = 1
+		ringTierMining = 2
+		ringTierLuck = 2
+		ringTierDolphin = 1
+		ringTierMagnetism = 2
 		ringTierFlight = 3
+		ringTierPoisonResistance = 1
+		ringTierHungerless = 3
+		ringTierGrowth = 2
+		ringTierKnockbackResistance = 0
+		ringTierHealth = 3
+		ringTierSponge = 1
 		ringTierExperience = 0
+		ringTierWaterWalking = 0
+		ringTierWither = 1
+		ringTierUndying = 3
+		ringTierSlowResistance = 1
 
 ["Rings Loot"]
-	#The maximum number of rings that can be found inside a single chest.
-	ringMaxLoot = 1
 	#The minimum number of rings that can be found inside a single chest.
 	ringMinLoot = 0
+	#The maximum number of rings that can be found inside a single chest.
+	ringMaxLoot = 1
 
 ["Rings Loot Chests"]
-	#Generate rings in woodland mansion chests
-	ringWoodlandChests = true
-	#Generate rings in village toolsmith chests
-	ringToolsmithChests = true
 	#Generate rings in dungeon chests
 	ringDungeonChests = true
-	#Generate rings in pillager outpost chests
-	ringPillagerChests = true
-	#Generate rings in village armorer chests
-	ringArmorerChests = true
 	#Generate rings in abandoned mineshaft chests
 	ringMineshaftChests = true
 	#Generate rings in desert pyramid chests
 	ringPyramidChests = true
-	#Generate rings in end city chests
-	ringEndCityChests = true
-	#Generate rings in stronghold library chests
-	ringStrongholdChests = true
-	#Generate rings in village weaponsmith chests
-	ringWeaponsmithChests = true
 	#Generate rings in buried treasure chests
 	ringBuriedTreasureChests = true
+	#Generate rings in end city chests
+	ringEndCityChests = true
 	#Generate rings in igloo chests
 	ringIglooChests = true
-	#Generate rings in nether bridge chests
-	ringNetherChests = true
-	#Generate rings in spawn bonus chests
-	ringBonusChests = true
-	#Generate rings in shipwreck treasure chests
-	ringShipwreckChests = true
 	#Generate rings in jungle temple chests
 	ringJungleChests = true
+	#Generate rings in nether bridge chests
+	ringNetherChests = true
+	#Generate rings in pillager outpost chests
+	ringPillagerChests = true
+	#Generate rings in shipwreck treasure chests
+	ringShipwreckChests = true
+	#Generate rings in spawn bonus chests
+	ringBonusChests = true
+	#Generate rings in stronghold library chests
+	ringStrongholdChests = true
+	#Generate rings in woodland mansion chests
+	ringWoodlandChests = true
+	#Generate rings in village toolsmith chests
+	ringToolsmithChests = true
+	#Generate rings in village weaponsmith chests
+	ringWeaponsmithChests = true
+	#Generate rings in village armorer chests
+	ringArmorerChests = true
 

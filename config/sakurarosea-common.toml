@@ -1,7 +1,0 @@
-
-#Biome generation settings
-[generation]
-	#Sakura biome spawn weight. Set to 0 to disable biome generation.
-	#Range: > 0
-	biome_spawn_weight = 10
-
