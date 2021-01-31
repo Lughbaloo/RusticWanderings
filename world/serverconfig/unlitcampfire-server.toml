@@ -1,0 +1,12 @@
+
+[unlitcampfire]
+	#The time (ticks) a campfire burns until it goes out by itself. (2000 ticks default; 0 means it burns forever)
+	#Range: 0 ~ 10000
+	campfireLitTime = 2000
+	#Whether a campfire should go out when rain falls on it.
+	unlitCampfireWithRain = true
+	#Whether the contained items should be dropped when a campfire goes out by itself or by rain.
+	campfireDropsItemsWhenUnlitByTimeOrRain = true
+	#Whether a campfire should be destroyed when it goes out by itself.
+	campfireBreaksWhenUnlitByTime = false
+
