@@ -1,27 +1,35 @@
+#Git ignore
 
 .gitattributes
-world/
-mods/
-logs/
-libraries/
+.mixin.out/
+crash-reports/
 defaultconfigs/
-.mixin.out
+dumps/
+gameobjects/
+libraries/
+local/
+logs/
+mods/
+world/
+
+#KubeJS Scripts
+kubejs/README.txt
+
+
+
+
+
+
+
+#Ect files
 1.16.4.json
 banned-ips.json
 banned-players.json
-changelog.txt
-LICENSE
-*.jar
+eula.txt
+forge-1.16.4-35.1.36.jar
+minecraft_server.1.16.4.jar
 ops.json
-rusticwanderings.code-workspace
 server.properties
 usercache.json
-whitelist.json
-eula.txt
-crash-reports/
-config/worldedit/sessions/
 usernamecache.json
-maessentials/players/
-config/worldedit/worldedit.properties
-dumps/
-config/worldedit/worldedit.properties
+whitelist.json
