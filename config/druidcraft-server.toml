@@ -25,7 +25,7 @@
 	#Range: 0 ~ 200
 	rockroot_weight = 16
 	#Whether to have ores from this mod spawn at all.
-	generate_ores = true
+	generate_ores = false
 
 [droprate]
 	#Rate of hemp seed drops from grass blocks.
@@ -41,7 +41,7 @@
 
 [entityspawning]
 	#Allow dreadfish to spawn?
-	dreadfish_spawn = true
+	dreadfish_spawn = false
 	#Determines the rarity of the dreadfish.
 	#Range: 1 ~ 100
 	dreadfish_weight = 40
@@ -59,7 +59,7 @@
 	beetle_spawn = true
 	#Determines the rarity of the beetle.
 	#Range: 1 ~ 200
-	beetle_weight = 10
+	beetle_weight = 1
 	#Minimum size of the group when spawned.
 	#Range: 1 ~ 200
 	beetle_min_group_size = 1

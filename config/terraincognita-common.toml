@@ -1,0 +1,59 @@
+
+[Tweaks]
+	#Adds composting recipes for dead bushes, bamboo, poisonous potatoes and chorus fruits/flowers.
+	#Default: true
+	"Additional Compostables" = true
+	#Allows growing lilypads by using bonemeal in shallow water pools.
+	#Default: true
+	"Bonemeal Lilypad Growing" = true
+
+[Flora]
+	#Dandelion puffs can in plains, forests and mountains. You can also blow on them!
+	#Default: true
+	"Dandelion Puff Enabled" = true
+	#Forget-me-not is a light blue flower found in plains and forests.
+	#Default: true
+	"Forget-me-not Enabled" = true
+	#Marigold is a large orange flower found in biomes such as savannahs, deserts and mesas.
+	#It is unique in that it can grow on sand, but only if there is water nearby.
+	#Default: true
+	"Marigold Enabled" = true
+	#Edelweiss is a small white flower found high in temperate and cold mountains.
+	#Default: true
+	"Edelweiss Enabled" = true
+	#Iris is a majestic flower found in jungles. It comes in blue and purple colors.
+	#Default: true
+	"Iris Enabled" = true
+	#Small lilypads can be stacked up to 4, like sea pickles.
+	#Default: true
+	"Small Lilypads Enabled" = true
+	#Lotus is a beautiful aquatic flower found in hungles. It comes in yellow, pink and white colors.
+	#Default: true
+	"Lotus Enabled" = true
+	#Fireweed is a purple flower found in cold biomes.
+	#Default: true
+	"Fireweed Enabled" = true
+	#Arctic poppy is a yellow variant of poppy found in tundras.
+	#Default: true
+	"Arctic Poppy Enabled" = true
+	#If enabled, wither roses will generate naturally on soul sand and soul soil in the Nether.
+	#Default: true
+	"Wither Rose Generation" = true
+	#Wreaths are a cosmetic headdress crafted with 4 small flowers of any kind in any shape.
+	#The color of the wreath depends on the flowers you used to craft it.
+	#Default: true
+	"Wreaths Enabled" = true
+
+[Food]
+	#Fern fiddleheads can be found when breaking ferns. You can eat them raw or add them to suspicious stews.
+	#Duration of suspicious stew's effect is doubled when a fiddlehead is added during or after cooking.
+	#If the effect is negative, duration is halved instead.
+	#Default: true
+	"Fern Fiddlehead Enabled" = false
+	#Taffy is a food item that can only be found in dungeons. It restores some health, but also makes your mouth sticky, reducing eating speed with every taffy eaten.
+	#Default: true
+	"Taffy Enabled" = false
+	#Enchanted golden carrot grants 2 minutes of Absorption IV and Speed II, and 10 minutes of Night Vision when eaten.
+	#Default: true
+	"Notch Carrot Enabled" = false
+

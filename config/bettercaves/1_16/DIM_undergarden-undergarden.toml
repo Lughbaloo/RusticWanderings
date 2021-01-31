@@ -1,0 +1,67 @@
+
+["Better Caves"]
+	["Better Caves"."Bedrock Generation"]
+		"Flatten Bedrock" = false
+		"Bedrock Layer Width" = 1
+	["Better Caves"."Underground Generation"]
+		["Better Caves"."Underground Generation".Miscellaneous]
+			"Enable Flooded Underground" = true
+			"Override Surface Detection" = false
+			"Liquid Altitude" = 10
+			"Prevent Cascading Gravel" = true
+			"Lava Block" = "silents_mechanisms:oil"
+			"Water Block" = "minecraft:water"
+		["Better Caves"."Underground Generation"."Water Regions"]
+			"Water Region Size Custom Value" = 0.004
+			"Water Region Spawn Chance" = 66.0
+			"Water Region Size" = "Small"
+		["Better Caves"."Underground Generation".Caves]
+			"Cave Spawn Chance" = 66.0
+			"Cave Region Size" = "Small"
+			"Cave Region Size Custom Value" = 0.00800000037997961
+			["Better Caves"."Underground Generation".Caves."Surface Caves"]
+				"Surface Cave Minimum Altitude" = 48
+				"Enable Surface Caves" = true
+				"Surface Cave Maximum Altitude" = 128
+				"Surface Cave Density" = 20
+			["Better Caves"."Underground Generation".Caves."Type 1 Caves"]
+				"Type 1 Cave Maximum Altitude" = 80
+				"Compression - Horizontal" = 1.4
+				"Type 1 Cave Minimum Altitude" = 8
+				"Type 1 Cave Surface Cutoff Depth" = 16
+				"Compression - Vertical" = 2.0
+				"Type 1 Cave Priority" = 6
+			["Better Caves"."Underground Generation".Caves."Type 2 Caves"]
+				"Type 2 Cave Minimum Altitude" = 24
+				"Type 2 Cave Maximum Altitude" = 48
+				"Compression - Horizontal" = 0.5
+				"Type 2 Cave Surface Cutoff Depth" = 16
+				"Compression - Vertical" = 0.9
+				"Type 2 Cave Priority" = 8
+			["Better Caves"."Underground Generation".Caves."Vanilla Caves"]
+				"Vanilla Cave Maximum Altitude" = 0
+				"Vanilla Cave Density" = 0
+				"Vanilla Cave Priority" = 0
+				"Vanilla Cave Minimum Altitude" = 0
+		["Better Caves"."Underground Generation".Caverns]
+			"Cavern Region Size Custom Value" = 0.01
+			"Cavern Spawn Chance" = 33
+			"Cavern Region Size" = "Small"
+			["Better Caves"."Underground Generation".Caverns."Floored Caverns"]
+				"Compression - Horizontal" = 0.6
+				"Floored Cavern Priority" = 10
+				"Compression - Vertical" = 1.1
+				"Floored Cavern Minimum Altitude" = 8
+				"Floored Cavern Maximum Altitude" = 24
+			["Better Caves"."Underground Generation".Caverns."Liquid Caverns"]
+				"Compression - Horizontal" = 0.7
+				"Liquid Cavern Priority" = 5
+				"Compression - Vertical" = 1.3
+				"Liquid Cavern Minimum Altitude" = 16
+				"Liquid Cavern Maximum Altitude" = 32
+		["Better Caves"."Underground Generation".Ravines]
+			"Enable Flooded Ravines" = true
+			"Enable Ravines" = true
+	["Better Caves"."DEBUG Settings"]
+		"Enable DEBUG Visualizer" = false
+

@@ -4,11 +4,11 @@ cowJarEnabled = true
 #Range: 0.0 ~ 3.4028234663852886E38
 cowJarMilkPerTick = 0.5
 #Set this to true if you'd like the sink to require water to be piped in, instead of providing infinite of it.
-sinkRequiresWater = false
+sinkRequiresWater = true
 #Enabling this will make the kitchen counters have twice as much inventory space.
 largeCounters = false
 #Set this to true if you'd like to disallow automation of the oven (pipes and such won't be able to insert/extract)
-disallowOvenAutomation = false
+disallowOvenAutomation = true
 #The fuel multiplier for the cooking oven. Higher values means fuel lasts longer, 1.0 is furnace default.
 #Range: 0.10000000149011612 ~ 2.0
 ovenFuelTimeMultiplier = 0.33000001311302185

@@ -1,0 +1,28 @@
+{
+    "match": [
+      [
+        "minecraft:decorated",
+		"scenic:rock_pile"
+      ]
+    ],
+    "replace": {
+      "name": "minecraft:decorated",
+      "config": {
+        "feature": {
+          "name": "scenic:rock_pile",
+          "config": {
+            "count": 20
+          }
+        },
+        "decorator": {
+          "name": "minecraft:nope",
+          "config": {
+            "count": 20,
+            "bottom_offset": 0,
+            "top_offset": 0,
+            "maximum": 60
+          }
+        }
+      }
+    }
+}

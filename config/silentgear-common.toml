@@ -9,7 +9,7 @@
 		#When joining a new world, should players be given a blueprint package?
 		#The blueprint package gives some blueprints when used (right-click).
 		#To change what is given, override the starter_blueprints loot table.
-		spawnWithStarterBlueprints = true
+		spawnWithStarterBlueprints = false
 
 	#Repair kit configs.
 	[item.repairKits]
@@ -132,12 +132,17 @@
 	[world.azureSilver]
 		#Veins of azure silver ore per chunk
 		#Range: 0 ~ 1000
-		count = 8
+		count = 0
+
+	[world.bort]
+		#Attempts to place individual bort ore blocks per chunk.
+		#Range: 0 ~ 1000
+		count = 0
 
 	[world.crimsonIron]
 		#Veins of crimson iron ore per chunk
 		#Range: 0 ~ 1000
-		count = 14
+		count = 0
 
 	[world.wildFlax]
 		#Number of patches of wild flax to attempt to place per chunk (some biomes only)

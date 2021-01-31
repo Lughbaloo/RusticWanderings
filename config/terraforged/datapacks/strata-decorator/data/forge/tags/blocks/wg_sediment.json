@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:gravel",
+	"decorative_blocks:rocky_dirt",
+	"minecraft:coarse_dirt",
+	"byg:rocky_stone"
+  ]
+}

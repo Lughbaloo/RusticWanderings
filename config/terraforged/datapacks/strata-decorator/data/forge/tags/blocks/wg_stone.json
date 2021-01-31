@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:stone",
+	"quark:limestone",
+	"quark:jasper",
+    "create:gabbro",
+    "minecraft:andesite",
+	"minecraft:granite",
+	"byg:rocky_stone"
+  ]
+}

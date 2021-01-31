@@ -1,0 +1,32 @@
+{
+    "match": [
+      [
+        "minecraft:ore",
+		"scenic:rocky_dirt"
+      ]
+    ],
+    "replace": {
+      "name": "minecraft:decorated",
+      "config": {
+        "feature": {
+          "name": "minecraft:ore",
+          "config": {
+            "size": 20,
+            "target": "natural_stone",
+            "state": {
+              "Name": "scenic:rocky_dirt"
+            }
+          }
+        },
+        "decorator": {
+          "name": "minecraft:nope",
+          "config": {
+            "count": 8,
+            "bottom_offset": 0,
+            "top_offset": 0,
+            "maximum": 128
+          }
+        }
+      }
+    }
+}

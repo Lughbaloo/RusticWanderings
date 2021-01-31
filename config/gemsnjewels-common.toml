@@ -2,7 +2,7 @@
 #gem set tools leveling config
 ["tool leveling"]
 	#sets whether gem set tools gain perks from levels
-	isToolLevelingEnabled = true
+	isToolLevelingEnabled = false
 
 	["tool leveling"."leveling config"]
 		swordKillsPerLevel = 10
@@ -17,7 +17,7 @@
 
 #whether mod loot spawns in chests
 ["loot spawning"]
-	isLootSpawnEnabled = true
+	isLootSpawnEnabled = false
 
 #whether minor gems spawn in unique biomes
 ["gem unique biome generation"]

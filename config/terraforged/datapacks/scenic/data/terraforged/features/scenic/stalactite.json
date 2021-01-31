@@ -1,0 +1,48 @@
+{
+    "match": [
+      [
+        "minecraft:random_patch",
+		"scenic:stalactite"
+      ]
+    ],
+    "replace": {
+      "name": "minecraft:decorated",
+      "config": {
+        "feature": {
+          "name": "minecraft:random_patch",
+          "config": {
+            "state_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "scenic:stalactite",
+                "Properties": {
+                  "waterlogged": "false"
+                }
+              }
+            },
+            "block_placer": {
+              "type": "minecraft:nope"
+            },
+            "whitelist": [],
+            "blacklist": [],
+            "tries": 32,
+            "xspread": 20,
+            "yspread": 3,
+            "zspread": 20,
+            "can_replace": false,
+            "project": false,
+            "need_water": false
+          }
+        },
+        "decorator": {
+          "name": "minecraft:count_range",
+          "config": {
+            "count": 10,
+            "bottom_offset": 0,
+            "top_offset": 0,
+            "maximum": 60
+          }
+        }
+      }
+    }
+}
